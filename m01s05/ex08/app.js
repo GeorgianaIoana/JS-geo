@@ -16,7 +16,7 @@ removeButton.addEventListener('click', function () {
 inputAge.addEventListener('click', function () {
   const age = prompt('Introduceti varsta:');
   let message = '';
-  if (age < 10) {
+  if (age < 19) {
     message = `Ai ${age} ani.`;
   } else {
     message = `Ai ${age} de ani.`;
